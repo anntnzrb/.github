@@ -1,0 +1,13 @@
+# Baseline for every repository that installs the Settings app
+# (https://github.com/apps/settings). A repository inherits it with
+# `_extends: .github` in its own .github/settings.yml and overrides keys there.
+repository:
+  has_wiki: false
+  allow_merge_commit: true
+  allow_squash_merge: false
+  allow_rebase_merge: false
+  merge_commit_title: PR_TITLE
+  merge_commit_message: PR_BODY
+  allow_auto_merge: true
+  allow_update_branch: true
+  delete_branch_on_merge: true
