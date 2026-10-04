@@ -3,6 +3,10 @@
 # `_extends: .github` in its own .github/settings.yml and overrides keys there.
 repository:
   has_wiki: false
+  has_projects: false
+  has_discussions: false
+  has_downloads: false
+  enable_vulnerability_alerts: true
   allow_merge_commit: true
   allow_squash_merge: false
   allow_rebase_merge: false
